@@ -10,7 +10,7 @@ function App() {
   return (
     
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/Alexandra" element={<Landing />} />
         <Route path="/choices" element={<Options />} />
 
         <Route path="/journey" element={<Journey />} />
